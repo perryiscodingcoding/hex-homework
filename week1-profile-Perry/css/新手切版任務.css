@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.mt1{
+    margin-top: 8px;
+}
+
+.mb1{
+    margin-bottom: 8px;
+}
+.mb2{
+    margin-bottom: 16px;
+}
+.mb3{
+    margin-bottom: 24px;
+}
+.mb4{
+    margin-bottom: 32px;
+}
+.mb5{
+    margin-bottom: 40px;
+}
+.mb6{
+    margin-bottom: 48px;
+}
+.mb9{
+    margin-bottom: 72px;
+}
+
+
+.block{
+    display: block;
+}
+body{
+    font-size: 24px;
+    line-height: 36px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 80px;
+    text-align: left;
+    line-height: 94px;
+    padding: 18px;
+    border-bottom: 2px solid #000;
+}
+
+.subtitle{
+    font-size: 32px;
+    line-height: 45px;
+/* 設計稿上有些寫43 有些寫45 可以問問設計師*/
+border-bottom: 1px solid #000;
+padding-bottom: 8px;
+}
+.subtitle span{
+    font-size: 24px;
+    color: #A00404;
+    padding-left: 16px;
+}
+.darkBlue{
+    background: #415165;
+    color: #fff;
+}
+.skills{
+    width: 996px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+/* 要注意，因為最底下的「語言：中文、英文」已經mb 20了，
+所以要用 36-20 =16 */
+}
+.subtitle-White {
+    font-size: 32px;
+    line-height: 45px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.subtitle-White span{
+    font-size: 24px; 
+    padding-left: 16px;
+}
+
+
+.skill-content{
+    width: 230px;
+    margin: 0 auto;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+
+.skill-content li{
+    margin-bottom: 20px;
+}
+
+.work-content{
+    
+    width: 624px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+    margin-left: 24px;
+}
+
+.work-content span{
+    font-size: 20px;
+}
+.contact{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.contactList{
+    text-align: center;
+    padding-bottom: 16px;
+}
